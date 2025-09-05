@@ -5,14 +5,14 @@ import 'bloc/bloc.dart';
 import 'bloc/state.dart';
 import 'ui_wrapper.dart';
 
-class EditPasswordScreen extends StatelessWidget {
-  const EditPasswordScreen({super.key});
+class MainScreen extends StatelessWidget {
+  const MainScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return EditPasswordScreenWrapper(
+    return MainScreenWrapper(
       child: Scaffold(
-        body: BlocBuilder<EditPasswordScreenBloc, EditPasswordScreenState>(
+        body: BlocBuilder<MainScreenBloc, MainScreenState>(
           builder: (context, state) {
             return Container();
           },

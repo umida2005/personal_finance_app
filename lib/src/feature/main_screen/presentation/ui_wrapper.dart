@@ -3,15 +3,15 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'bloc/bloc.dart';
 
-class EditPasswordScreenWrapper extends StatelessWidget {
+class MainScreenWrapper extends StatelessWidget {
   final Widget child;
 
-  const EditPasswordScreenWrapper({super.key, required this.child});
+  const MainScreenWrapper({super.key, required this.child});
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider<EditPasswordScreenBloc>(
-      create: (_) => EditPasswordScreenBloc(),
+    return BlocProvider<MainScreenBloc>(
+      create: (_) => MainScreenBloc(),
       child: child,
     );
   }
