@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:personal_finance_app/src/feature/auth/login_screen/presentation/ui.dart';
-import 'package:personal_finance_app/src/feature/auth/login_screen/presentation/ui_wrapper.dart';
+import 'package:personal_finance_app/src/feature/intro_screen/presentation/ui.dart';
 import 'app_screen_wrapper.dart';
 import 'bloc/app_bloc.dart';
 import 'bloc/app_state.dart';
@@ -23,9 +22,9 @@ class App extends StatelessWidget {
             ),
           );
 
-          return  MaterialApp(
+          return const MaterialApp(
             debugShowCheckedModeBanner: false,
-            home:  LoginScreen()
+            home:  IntroScreen(),
           );
         },
       ),
