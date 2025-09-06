@@ -1,16 +1,40 @@
-# personal_finance_app
+📱 Personal Finance App
 
-A new Flutter project.
+Bu loyiha Flutter asosida yaratilgan va foydalanuvchilarga o‘z xarajatlarini boshqarish, statistika olish hamda byudjetni nazorat qilish imkonini beradi.
 
-## Getting Started
+✨ Asosiy imkoniyatlar
+🔑 Autentifikatsiya (Firebase Auth)
 
-This project is a starting point for a Flutter application.
+Email/parol orqali ro‘yxatdan o‘tish
 
-A few resources to get you started if this is your first Flutter project:
+Login/Logout
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Parolni tiklash
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Profil ma’lumotlarini ko‘rish
+
+💵 Xarajatlarni boshqarish (Firestore)
+
+Xarajat qo‘shish (summa, kategoriya, sana, izoh)
+
+Xarajatlarni ko‘rish, filtrlash va tahrirlash
+
+Xarajatni o‘chirish
+
+Kategoriyalar: Oziq-ovqat, Transport, Ko‘ngilochar, Kommunal, Boshqa
+
+
+
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7749c82d-ea2d-419a-ad76-f25873b241f5" width="250" />
+  <img src="https://github.com/user-attachments/assets/4fe04046-3c57-4162-b5e5-e6445c7320bd" width="250" />
+  <img src="https://github.com/user-attachments/assets/fc774a84-a8c7-4076-9d92-1ed8b2a4eee9" width="250" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b7e3af01-9c2b-4374-b685-44179719e030" width="250" />
+</p>
+
